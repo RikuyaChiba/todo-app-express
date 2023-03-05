@@ -7,7 +7,7 @@ const app  = express();
 const PORT = 8080;
 const HOST = '0.0.0.0';
 
-app.set("view engine", "ejs");
+app.set("view engine", "pug");
 
 app.get("/", (req, res) => {
   res.render("hello");
